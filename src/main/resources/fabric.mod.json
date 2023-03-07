@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "nourishex",
+  "version": "${version}",
+
+  "name": "NourishEx",
+  "description": "Replaces the 'Nourish' GUI with a page added by 'PlayerEx'.",
+  "authors": [
+    "Havio"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/Havio",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.havio.nourishex.NourishEx"
+    ]
+  },
+  "mixins": [
+    "nourishex.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "playerex": ">=3.5.2",
+    "nourish": ">=0.0.1-1.19.2"
+  }
+}

@@ -20,12 +20,14 @@
   "entrypoints": {
     "main": [
       "net.havio.nourishex.NourishEx"
+    ],
+    "client": [
+      "net.havio.nourishex.NourishExClient"
     ]
   },
   "mixins": [
     "nourishex.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",
